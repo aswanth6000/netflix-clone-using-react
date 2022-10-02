@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-decoration-color: none;
+
+}
+
+.container{
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 630px;
+   
+}
+.info button{
+    height: 35px;
+    width: 107px;
+    margin-left: 20px;
+    background-color: #b9a7a79e;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    margin-top: 314px;
+    cursor: pointer;
+
+}
+.p p{
+    font-size: 22px;
+    color: white;
+    padding: 22px;
+    width: 626px;
+}
+.info button:hover{
+    background-color: #433d3d9e;
+}

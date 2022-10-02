@@ -1,0 +1,71 @@
+.container2{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.container2::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    height: 285px;
+    width: 204px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition-duration: .4s;
+    
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading h2{
+    color: white;
+    padding: 20px;
+}
+.ps{
+    display: flex;
+}
+/* .btn{
+    height: 35px;
+    width: 144px;
+    position: absolute;
+    left: 6%;
+    top: 82%;
+  
+    border-radius: 12px;
+    background-color: #b9a7a79e;
+    color: white;
+    cursor: pointer;
+    display: none;
+    opacity: 0.6;
+    transition: .3s;
+
+}
+.poster:hover + .btn, .btn:hover{
+    opacity: 1;
+    display: block;
+} */
+.name h1{
+    color: white;
+    margin-left: 24px;
+    top: 41%;
+    position: absolute;
+    font-size: 40px;
+}
+.smallPoster{
+    max-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+.smallPoster:hover{
+    transform: scale(1.1);
+}

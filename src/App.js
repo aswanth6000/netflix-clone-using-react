@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { newUrl,actionUrl,comedy, documentry, animation } from "./constants/url";
+import Banner from "./Components/banner/banner";
+import Navbar from "./Components/navbar/navbar";
+import Carrousal from "./Components/carrousal/carrousal";
+import Footer from "./Components/footer/footer";
+
+import './main.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar/>
+     <Banner/>
+     <Carrousal url={newUrl} title='New releases'/>
+     <Carrousal url={actionUrl} title='Action' isSmall/>
+     <Carrousal url={comedy} title='Documentary' isSmall/>
+     <Carrousal url={documentry} title='Comedy' isSmall/>
+     <Carrousal url={animation} title='Animation' />
+     <Footer/>
+     
     </div>
   );
 }
