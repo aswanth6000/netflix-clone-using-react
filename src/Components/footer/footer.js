@@ -31,7 +31,7 @@ function Footer() {
             </div>
             <div className='bottom'>
                 <button>Service Code</button>
-                 <p>Copyright ©  <a href="/aswanth"> </a></p>
+                 <p>Copyright ©  <a href="https://www.instagram.com/aswanth6000/"> ASWANTH ALAKKADAN </a></p>
             </div>
         </div>
     )
